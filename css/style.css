@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+	--color-black: #000;
+	--color-gray: #c0c0c0;
+	--color-allfind: #25b0a9;
+}
+
+.bg-allfind {
+	background-color: var(--color-allfind);
+}
+
+.bg-gray {
+	background-color: var(--color-gray);
+}
+
+.text-gray {
+	color: var(--color-gray);
+}
+
+.font-opensans {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.aspect-ratio-1 {
+	aspect-ratio: 1;
+}
+
+.object-center {
+	object-fit: cover;
+	object-position: center;
+}
+
+.absolute-center {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.brand-logo {
+	height: 1.5em;
+}
+
+select:focus,
+select:active {
+	box-shadow: none !important;
+}
+
+.w-button {
+	height: 2em;
+}
+
+#recomendation-container > div > div {
+	min-height: 20vh;
+}
+
+.carousel-control-prev {
+	margin-left: -1.2em;
+}
+
+.carousel-control-next {
+	margin-right: -1.2em;
+}
+
+.carousel-indicators > button {
+	width: 0.5em !important;
+	height: 0.5em !important;
+	border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+	.carousel-control-prev {
+		margin-left: -3em;
+	}
+
+	.carousel-control-next {
+		margin-right: -3em;
+	}
+}
